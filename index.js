@@ -7,10 +7,10 @@ var http = require('http');
 
 function silosAppender(token, host, port) {
     if (typeof host === 'undefined') {
-        host = "127.0.0.1";
+        host = "silos.ermlab.com";
     }
     if (typeof port === 'undefined') {
-        port = "3000";
+        port = "80";
     }
 
     var queue = [];
