@@ -1,6 +1,6 @@
 {
     "name": "log4js-appender-silos",
-    "version": "0.0.2",
+    "version": "0.1.0",
     "description": "log4js appender for silos.ermlab.com",
     "main": "index.js",
     "scripts": {

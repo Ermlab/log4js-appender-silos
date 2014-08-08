@@ -44,6 +44,7 @@ function silosAppender(token, host, port) {
 
     return function (loggingEvent) {
         var data = querystring.stringify({
+            logger: loggingEvent.logger.category,
             body: loggingEvent.data,
             level: loggingEvent.level.level
         });
