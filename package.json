@@ -1,16 +1,16 @@
 {
-  "name": "log4js-appender-silos",
-  "version": "0.1.2",
-  "description": "log4js appender for silos.ermlab.com",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Ermlab",
-  "license": "MIT",
-  "dependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Ermlab/log4js-appender-silos.git"
-  }
+    "name": "log4js-appender-silos",
+    "version": "0.1.3",
+    "description": "log4js appender for silos.ermlab.com",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Ermlab",
+    "license": "MIT",
+    "dependencies": {},
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Ermlab/log4js-appender-silos.git"
+    }
 }

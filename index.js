@@ -38,8 +38,10 @@ function silosAppender(token, host, port) {
                 sendNext();
             });
         });
+        req.on('error', function (err) {});
         req.write(data);
         req.end();
+
     }
 
     return function (loggingEvent) {
